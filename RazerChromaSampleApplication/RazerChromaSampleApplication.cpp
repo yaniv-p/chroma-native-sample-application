@@ -69,7 +69,7 @@ BOOL CRazerChromaSampleApplicationApp::InitInstance()
     // such as the name of your company or organization
     SetRegistryKey(_T("Local AppWizard-Generated Applications"));
 
-    CSampleApplicationPropertySheet dlg(_T("Razer Chroma SDK Sample Application"));
+    CSampleApplicationPropertySheet dlg(_T("My Razer Chroma SDK Sample Application"));
 
     dlg.m_psh.dwFlags &= ~PSH_HASHELP;
     dlg.m_psh.dwFlags |= PSH_NOAPPLYNOW;
